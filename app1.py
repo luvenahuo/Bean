@@ -10,6 +10,10 @@ def index():
 def about():
     return render_template('about.html')
 
+@app.route('/demo')
+def demo():
+	return render_template('demo.html')
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
 	
