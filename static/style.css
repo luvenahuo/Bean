@@ -1,0 +1,91 @@
+body {
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.navbar{
+	background-color: white;
+}
+.navbar-nav{
+	padding: 1.0rem 1rem !important;
+}
+/*Font size of list elements*/
+/*Changes navbar padding of BEAN and logo*/
+.nav-item{ 
+	padding-left: 1.5rem; 
+	font-size: 1.2rem;
+}
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+hr{
+	margin-top: 5px !important;
+	margin-bottom: 60px !important;
+}
+
+.procedure{
+	margin-top: 50px;
+}
+
+/*The upload button on homepage*/
+.btn-group-lg>.btn, .btn-lg{
+	font-size: 1.25rem;
+}
+/*Mission statement*/
+#mission{
+	text-align: center;
+	font-size: 35px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+
+#missionstatement{
+	padding-bottom: 35px;
+}
+
+#uploadsection{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 35px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+/*About Info Page*/
+#cancer{
+	text-align: center;
+	font-size: 35px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+
+#cancerstatement{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	/*padding-top: 80px;*/
+	padding-bottom: 80px;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+
+#cancerstatementcont{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	background-color: #63B4DC;
+	color: white;
+	font-size: 25px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+

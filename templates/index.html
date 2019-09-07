@@ -1,0 +1,59 @@
+<html>
+<head>
+<link rel="stylesheet" href='/static/style.css' />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Add sticky-top class if you want fixed navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand nav-item" href="{{url_for('index')}}">BEAN</a>
+  <svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M67.8783 19.579C65.2202 16.921 61.849 15.2353 58.2185 14.7167C57.6998 11.0861 56.0142 7.71492 53.3561 5.05684C50.1146 1.81528 45.7709 0 41.103 0C36.5 0 32.1563 1.81528 28.8499 5.05684C25.6083 8.2984 23.7931 12.6421 23.7931 17.3099V23.8579H17.3099C7.77975 23.8579 0 31.5728 0 41.103C0 49.7904 6.41829 56.9867 14.7167 58.2185C15.9485 66.5169 23.1448 72.9352 31.8321 72.9352H70.9902C71.5089 72.9352 72.0275 72.7407 72.3517 72.3517C72.6758 71.9627 72.9352 71.5089 72.9352 70.9902V31.8321C73 27.2291 71.1847 22.8854 67.8783 19.579ZM14.587 54.2638C8.49289 53.032 3.88988 47.5861 3.88988 41.103C3.88988 33.7123 9.91918 27.7478 17.3099 27.7478H25.8028C26.905 27.7478 27.7478 26.905 27.7478 25.8028V17.3099C27.7478 13.7442 29.1741 10.373 31.7025 7.84458C32.9991 6.54796 34.4254 5.57549 36.0462 4.92718C37.6021 4.21403 39.3526 3.88988 41.1678 3.88988C44.7336 3.88988 48.1048 5.25133 50.6332 7.84458C51.9298 9.14121 52.9023 10.5675 53.5506 12.1883C53.8748 12.9663 54.1341 13.8091 54.2638 14.587C50.1794 14.9112 46.3543 16.6616 43.4369 19.579C40.1954 22.8206 38.3801 27.1643 38.3801 31.8321V38.3801H31.897C22.7558 38.3801 15.3002 45.3819 14.587 54.2638ZM31.8321 42.27H40.2602C41.3623 42.27 42.2051 41.4272 42.2051 40.325V31.8321C42.2051 28.2664 43.5666 24.8952 46.1599 22.3668C48.4289 20.0977 51.3464 18.7362 54.5231 18.4769V54.5231H18.4769C19.0604 47.651 24.8304 42.27 31.8321 42.27ZM69.1101 69.1101H31.8321C25.4139 69.1101 19.968 64.5719 18.7362 58.4778H56.5329C57.0515 58.4778 57.5702 58.2833 57.8943 57.8943C58.2185 57.5053 58.4778 57.0515 58.4778 56.5329V18.7362C61.0062 19.2549 63.3401 20.4867 65.2202 22.3668C66.5169 23.6634 67.4893 25.0897 68.1376 26.7105C68.786 28.3313 69.1749 30.0817 69.1749 31.8321V69.1101H69.1101Z" fill="#63B4DC"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="73" height="73" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
+<!-- Comment out collapse navbar collapse if you want navbar labels on left -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/upload">Upload</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="{{url_for('about')}}">Learn More</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<hr>
+
+<div id="mission">
+  <div id="missionstatement">
+    <p>Our mission is to deliver quality healthcare services <br> that are accessible and easy-to-understand.</p>
+  </div>
+
+  <a href="{{url_for('about')}}"><button type="button" class="btn btn-lg btn-outline-secondary" value="about">Learn More</button></a>
+</div>
+
+<div class="procedure">
+<div class="row no-gutters">
+  <img src="/static/homepage.png">
+</div>
+</div>
+
+<div id="uploadsection">
+  <div id="uploadstatement">
+    <p>Breathe easy with BEAN.</p>
+  </div>
+  <a href="/upload.html"><button type="button" class="btn btn-lg btn-outline-secondary">Upload</button></a>
+</div>
+
+</body>
+</html>
